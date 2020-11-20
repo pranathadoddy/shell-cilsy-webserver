@@ -7,7 +7,7 @@ sudo apt install php-fpm php-mysql -y
 sudo rm /var/www/html/*
 sudo rm -Rf /var/www/html/*
 cd /var/www/html/
-sudo git clone https://github.com/pranathadoddy/sosial-media-cilsy.git 
+sudo git clone https://github.com/pranathadoddy/sosial-media-cilsy.git . 
 
 sudo cp default /etc/nginx/sites-enabled/default
 
